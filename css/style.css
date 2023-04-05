@@ -16,8 +16,8 @@ html, body{
 }
 
 @keyframes slide-out2 {
-  0% { transform: translateX(-100%); }
-  100% { transform: translate(700px, 300px); }
+  5% { transform: translateX(-100%);transform: translateY(100%); }
+  2% { transform: translate(0%); }
 }
 
 @keyframes slide-up {
@@ -127,6 +127,22 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container3{
+  margin-top: 100px;
+  width: 130vh;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  bottom:0px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  animation: slide-out 1s;
 }
 
 .t1{
